@@ -11,7 +11,7 @@
 	<!--$ANALYSIS-IGNORE, QUICKFIX APPLIED -->
 	<Resource auth="Container" 
 		driverClassName="org.apache.derby.jdbc.EmbeddedDriver" 
-		maxIdle="30" name="jdbc/redbooklib-SQLDB" password=""
+		maxIdle="30" name="jdbc/redbooklib-dashDB" password=""
 		type="javax.sql.DataSource" url="jdbc:derby:library;create=true"
 		username="" />
 
