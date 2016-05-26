@@ -14,8 +14,6 @@
 		<%=new Date()%></h1>
 	<p><%=(String) request
 					.getAttribute(WebAttributes.RETURN_MESSAGE.toString())%></p>
-	<p>
-		<a href="<%=request.getContextPath()%>">Back to main page</a>
-	</p>
+	
 </body>
 </html>
