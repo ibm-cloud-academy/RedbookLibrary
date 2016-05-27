@@ -14,6 +14,7 @@
 		<%=new Date()%></h1>
 	<p><%=(String) request
 					.getAttribute(WebAttributes.RETURN_MESSAGE.toString())%></p>
-	
+					
+	<a href="javascript:history.go(-1)"  onMouseOver="self.status=document.referrer;return true">Back to main page</a>
 </body>
 </html>
